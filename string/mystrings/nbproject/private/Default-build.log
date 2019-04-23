@@ -1,0 +1,4 @@
+gcc -c myStrings_main.c
+gcc -c myStrings.c
+gcc myStrings_main.c myStrings.c -o mystrings
+rm myStrings_main.o myStrings.o 
